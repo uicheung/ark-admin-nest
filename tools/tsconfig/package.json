@@ -1,0 +1,11 @@
+{
+  "name": "@tools/tsconfig",
+  "version": "1.0.0",
+  "description": "tsconfig",
+  "author": "hackycy",
+  "license": "MIT",
+  "files": [
+    "tsconfig.node.json",
+    "tsconfig.app.json"
+  ]
+}
