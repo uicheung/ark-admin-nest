@@ -7,7 +7,7 @@ services:
     volumes:
       - ./deploy/web:/etc/nginx/conf.d
     ports:
-      - "80:80"
+      - '80:80'
     restart: always
 
   ark-admin-nest:
@@ -25,7 +25,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: ark_admin
     ports:
-      - "3306:3306"
+      - '3306:3306'
     volumes:
       - ./data/mysql/data:/var/lib/mysql
       - ./deploy/sql/:/docker-entrypoint-initdb.d/
@@ -37,7 +37,7 @@ services:
     container_name: phpmyadmin
     restart: always
     ports:
-      - "8080:80"
+      - '8080:80'
     environment:
       - PMA_ARBITRARY=1
 
@@ -45,11 +45,11 @@ services:
     image: redis:6.2.5
     container_name: redis
     ports:
-      - "6379:6379"
+      - '6379:6379'
     environment:
       TZ: Asia/Shanghai
     volumes:
       - ./data/redis/data:/data:rw
-    command: "redis-server --requirepass 123456  --appendonly yes"
+    command: 'redis-server --requirepass 123456  --appendonly yes'
     privileged: true
     restart: always

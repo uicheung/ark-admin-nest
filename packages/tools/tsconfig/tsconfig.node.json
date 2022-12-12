@@ -8,20 +8,7 @@
     "allowSyntheticDefaultImports": true,
     "target": "es2017",
     "sourceMap": true,
-    "outDir": "./dist",
-    "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true
-  },
-  "include": ["src/**/*"],
-  "exclude": [
-    "**/dist",
-    "node_modules",
-    "**/node_modules",
-    "**/coverage",
-    "**/*.spec.ts",
-    "**/test",
-    "**/__tests__",
-    "**/*.test.ts"
-  ]
+  }
 }
