@@ -14,14 +14,12 @@
   "author": "hackycy",
   "license": "MIT",
   "devDependencies": {
-    "@arklnk/tsconfig": "workspace:*",
     "@arklnk/eslint-config": "workspace:*",
-    "@types/crypto-js": "^4.1.1",
-    "@types/lodash": "^4.14.191"
+    "@arklnk/tsconfig": "workspace:*",
+    "@types/crypto-js": "^4.1.1"
   },
   "dependencies": {
     "crypto-js": "^4.1.1",
-    "lodash": "^4.17.21",
     "nanoid": "^4.0.0"
   }
 }
