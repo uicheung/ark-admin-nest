@@ -4,5 +4,9 @@
   "description": "eslint-config",
   "main": "index.js",
   "author": "hackycy",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  }
 }
