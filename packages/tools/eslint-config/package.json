@@ -2,9 +2,12 @@
   "name": "@arklnk/eslint-config",
   "version": "1.0.0",
   "description": "eslint-config",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "hackycy",
   "license": "MIT",
+  "files": [
+    "src"
+  ],
   "devDependencies": {
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1"

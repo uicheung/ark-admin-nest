@@ -1,5 +1,5 @@
 {
-  "extends": "@arklnk/tsconfig/tsconfig.node.json",
+  "extends": "@arklnk/tsconfig/tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./dist",
     "baseUrl": "./src"

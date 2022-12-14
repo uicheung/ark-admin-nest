@@ -5,6 +5,6 @@
   "author": "hackycy",
   "license": "MIT",
   "files": [
-    "tsconfig.node.json"
+    "tsconfig.base.json"
   ]
 }
