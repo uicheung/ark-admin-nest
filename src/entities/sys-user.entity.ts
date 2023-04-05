@@ -3,8 +3,7 @@ import { AbstractEntity } from '/@/common/abstract.entity';
 
 @Entity({ name: 'sys_user' })
 export class SysUserEntity extends AbstractEntity {
-  @Column({ type: 'varchar', length: 50, comment: '账号' })
-  account: string;
+
 
   @Column({ type: 'char', length: 32, comment: '密码' })
   password: string;
